@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1158px;
+    margin: auto;
+    padding: 15px;
+    column-gap: 24px;
+    row-gap: 25px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.gallery-image {
+    display: block;
+    max-width: 100%; 
+    width: 360px;
+    height: 300px;
+}
+
+.gallery-image:hover {
+    outline: #4E75FF solid;
+}
+
+.container {
+    width: 1158px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.container a {
+    font-size: 20px;
+    text-decoration: none;
+}
